@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang=”es”>
+	<head>
+ 		<meta charset=”UTF-8” >
+			<title>FORMULARIO BÁSICO</title>
+	</head>
+ 	<body>
+ 		<form action="mailto: alvarocbcp@gmail.com" method="post" enctype="text/plain">
+ 			<fieldset>
+ 				<legend>Datos Personales </legend>
+ 			<div>
+ 			<table>
+ 			<tr>
+ 				<td><label for="nombre">Nombre: </label></td>
+ 				<td><input type="text" name="nombre" placeholder="Obligatorio" required></td>
+ 			</tr>
+ 			<tr>
+ 				<td><label for="apellido1">1er Apellido: </label></td>
+ 				<td><input type="text" name="apellido1" placeholder="Obligatorio" required></td>
+ 			</tr>
+ 			<tr>
+ 				<td><label for="apellido2">2º Apellido: </label></td>
+ 				<td><input type="text" name="apellido2" placeholder="Opcional"></td>
+			</tr>
+			<tr>
+ 			<td><label for="telefonos">Fecha de Nacimiento: </label></td>
+ 			<td><input type="date" name="fechaNacimiento" required></td>
+ 			</tr>
+ 			</table>
+ 			</div>
+ 			<label for="telefonos">Tel&eacute;fonos: </label><br>
+ 			<ul style="list-style-type:circle;">
+ 			<li>M&oacute;vil: <input type="text" name="telefonom" placeholder="Obligatorio" required></li>
+ 			<br>
+ 			<li>Fijo: <input type="text" name="telefonof" placeholder="Opcional" ></li>
+ 			</ul>
+ 			<br>
+ 			<label for="provincia">Provincia: </label>
+ 			<select name="provincia">
+ 				<optgroup label="Comunidad de Madrid">
+ 				<option value="Mad">Madrid</option>
+ 				</optgroup>
+ 				<optgroup label="Andaluc&iacute;a">
+ 				<option value="Sev">Sevilla</option>
+ 				<option value="Cad">C&aacute;diz</option>
+ 				<option value="Hue">Huelva</option>
+ 				<option value="Cor">C&oacute;rdoba</option>
+ 				<option value="Jae">Ja&eacute;n</option>
+ 				<option value="Alm">Almer&iacute;a</option>
+ 				<option value="Gra">Granada</option>
+ 				<option value="Mal">M&aacute;laga</option>
+ 				</optgroup>
+ 				<optgroup label="Arag&oacute;n">
+ 				<option value="Zar">Zaragoza</option>
+ 				<option value="Hue">Huesca</option>
+ 				<option value="Ter">Teruel</option>
+ 				</optgroup>
+ 				<optgroup label="Principado de Asturias">
+ 				<option value="Ast">Asturias</option>
+ 				</optgroup>
+ 				<optgroup label="Islas Baleares">
+ 				<option value="Bal">Baleares</option>
+ 				</optgroup>
+ 				<optgroup label="Islas Canarias">
+ 				<option value="SC">Santa Cruz</option>
+ 				<option value="LP">Las Palmas</option>
+ 				</optgroup>
+ 				<optgroup label="Cantabria">
+ 				<option value="Can">Cantabria</option>
+ 				</optgroup>
+ 				<optgroup label="Castilla y Le&oacute;n">
+ 				<option value="Leo">Le&oacut;n</option>
+ 				<option value="Sal">Salamanca</option>
+ 				<option value="Bur">Burgos</option>
+ 				<option value="Pal">Palencia</option>
+ 				<option value="Zam">Zamora</option>
+ 				<option value="Avi">&Aacute;vila</option>
+ 				<option value="Sor">Soria</option>
+ 				<option value="Vall">Valladolid</option>
+ 				<option value="Seg">Segovia</option>
+ 				</optgroup>
+ 				<optgroup label="Castilla-La Mancha">
+ 				<option value="Tol">Toledo</option>
+ 				<option value="Gua">Guadalajara</option>
+ 				<option value="Alb">Albacete</option>
+ 				<option value="CR">Ciudad Real</option>
+ 				<option value="Cue">Cuenca</option>
+ 				</optgroup>
+ 				<optgroup label="Cataluña">
+ 				<option value="Bar">Barcelona</option>
+ 				<option value="Lle">Lleida</option>
+ 				<option value="Tarr">Tarragona</option>
+ 				<option value="Gir">Girona</option>
+ 				</optgroup>
+ 				<optgroup label="Comunidad Valenciana">
+ 				<option value="Val">Valencia</option>
+ 				<option value="Ali">Alicante</option>
+ 				<option value="Cas">Castell&oacute;n</option>
+ 				</optgroup>
+ 				<optgroup label="Extremadura">
+ 				<option value="Cac">C&aacute;ceres</option>
+ 				<option value="Bad">Badajoz</option>
+ 				</optgroup>
+ 				<optgroup label="Galicia">
+ 				<option value="Lug">Lugo</option>
+ 				<option value="Pont">Pontevedra</option>
+ 				<option value="Our">Ourense</option>
+ 				<option value="LC">La Coruña</option>
+ 				</optgroup>
+ 				<optgroup label="Regi&oacute;n de Murcia">
+ 				<option value="Mur">Murcia</option>
+ 				</optgroup>
+ 				<optgroup label="Comunidad Foral de Navarra">
+ 				<option value="Nav">Navarra</option>
+ 				</optgroup>
+ 				<optgroup label="Pa&iacute;s Vasco">
+ 				<option value="Viz">Vizcaya</option>
+ 				<option value="Gui">Guipuzcoa</option>
+ 				<option value="Ala">&Aacute;lava</option>
+ 				</optgroup>
+ 				<optgroup label="La Rioja">
+ 				<option value="LR">La Rioja</option>
+ 				</optgroup>
+ 				<optgroup label="Ciudad Aut&oacute;noma de Ceuta">
+ 				<option value="Ceu">Ceuta</option>
+ 				</optgroup>
+ 				<optgroup label="Ciudad Aut&oacute;noma de Melilla">
+ 				<option value="Mel">Melilla</option>
+ 				</optgroup>
+ 			</select>
+ 			<br>
+ 			<br>
+ 			<label for="genero">Sexo: </label>
+ 			<p>
+ 				<input type="radio" name="genero" value="masculino">Hombre<br>
+ 			</p>
+ 			<p>
+ 				<input type="radio" name="genero" value="femenino" checked />Mujer<br>
+ 			</p>
+ 			<br>
+ 			<br>
+ 			</fieldset>
+ 			<fieldset>
+ 				<legend>Nivel de Estudios: </legend>
+ 				<p>
+ 					<input type="checkbox" name="ESO">Educaci&oacute;n Secundaria Obligatoria<br>
+ 					<input type="checkbox" name="bach">Bachillerato<br>
+ 					<input type="checkbox" name="gradoMedio">Grado Medio<br>
+ 					<input type="checkbox" name="gradoSuperior">Grado Superior<br>
+ 					<input type="checkbox" name="uni">Estudios Universitarios<br>
+ 				</p>
+ 			</fieldset>
+ 			<br>
+ 			<br>
+ 			<input type="reset" name="borrar" value="Borrar">
+ 			<input type="submit" name="enviar" value="Enviar">
+ 		</form>
+ 	</body>
+</html>

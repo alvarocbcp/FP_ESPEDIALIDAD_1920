@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE factura [
+<!ELEMENT factura (id, importe, cliente, empresa)>
+<!ELEMENT id (#PCDATA)>
+<!ELEMENT importe (#PCDATA)>
+<!ELEMENT cliente (#PCDATA)>
+<!ELEMENT empresa (CIF, nomEmp)>
+<!ELEMENT CIF (#PCDATA)>
+<!ELEMENT nomEmp (#PCDATA)>
+]>
+<factura>
+<id>1111</id>
+<importe>125€</importe>
+<cliente>Alvaro Cabello Benito</cliente>
+<empresa><CIF>50505050</CIF><nomEmp>Endesa</nomEmp></empresa>
+</factura>

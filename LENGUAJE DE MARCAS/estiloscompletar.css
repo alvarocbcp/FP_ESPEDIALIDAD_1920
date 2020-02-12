@@ -1,0 +1,58 @@
+/* Centra en la página en texto del título */
+h1{
+ text-align: center;
+}
+
+/* Da a todas las imágenes el mismo tamaño 50x50px */
+img{
+	height: 50px;
+	width: 50px;
+}
+
+/*Utilizando clases y una regla de selección haz que todas las celdas con texto de la primera columna
+tengan fondo rojo y letra blanca*/
+ .primera{
+ 	background-color: crimson;
+ 	color: white;
+}
+
+/* Añadiendo sólo un id a la fila de la celda donde pone "Capacidad" y dando clase a las celdas con "GB" 
+cambiar el tamaño de la letra centrar el texto y poner el fondo gris */
+#fila .gb{
+background-color: grey;  
+}
+#fila .gb p{
+font-size: 20px;
+text-align: center;
+}
+
+/* Añadiendo sólo un id a la fila que las contiene añade estilos a los elementos de la lista que están dentro de
+esa fila para ponerles color de texto rojo*/
+#listas li{
+  color: crimson;
+}
+
+/*Utilizando un id aumenta el padding superior e inferior a la celda en la que pone "5 horas" y dale fondo amarillo*/
+ #cinco{
+ background-color: yellow;
+ padding-bottom: 20px;
+ padding-top: 20px;
+}
+
+/* Dar lo estilos adecuados para poner un borde simple colapsado, centrar la tabla y que ocupe un ancho del 50% de la pantalla */
+ table{
+  border-collapse: collapse;
+  margin-left: 33%;
+}
+table ,th ,td{
+	border: 1px solid black;
+}
+
+ {
+  
+}
+
+/* Dar color de fondo azul a todas las celdas que tiene colspan="2" y colspan="3"*/
+[colspan = "2"], [colspan = "3"]{
+	background-color: blue;  
+}

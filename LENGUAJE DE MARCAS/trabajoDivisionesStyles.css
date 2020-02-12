@@ -1,0 +1,58 @@
+body{
+	background-image: url("fondo.jpg");
+	background-size: cover;
+}
+
+#div1{
+	margin: auto;
+	margin-top: 150px;
+	background-color: grey;
+	border: 0px;
+	height: 300px;
+	width: 450px;
+	position: relative;
+}
+
+#imagenSW{
+	margin: auto;
+	height: 300px;
+	width: 450px;
+}
+
+#div2{
+	margin-top: -400px;
+	margin-left: 850px;
+	position: absolute;
+}
+
+#obiWan{
+	margin: auto;
+	height: 150px;
+	width: 225px;
+}
+
+#div3{
+	margin-top: -400px;
+	margin-left: 275px;
+	position: absolute;
+}
+
+#darthVader{
+	margin: auto;
+	height: 150px;
+	width: 225px;
+}
+
+#div4{
+	background-color: black;
+	position: absolute;
+	height: 150px;
+	width: 400px;
+	margin-top: -25px;
+	margin-left: 475px;
+	color: yellow;
+}
+a{
+	font-style: italic;
+	color: yellow;
+}
