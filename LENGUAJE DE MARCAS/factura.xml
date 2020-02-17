@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE factura SYSTEM "factura.dtd">
+
+<factura n_fac="N001">
+  <datos_empresa>
+    <nombre></nombre>
+    <dir></dir>
+    <poblacion cod_postal="28521"></poblacion>
+    <provincia></provincia>
+    <cif></cif>
+    <telefono num_tel="917776688"></telefono>
+    <fax num_fax="917776699"></fax>
+  </datos_empresa>
+
+  <datos_cliente n_cli="C001">
+    <nombre></nombre>
+    <dir_env></dir_env>
+    <poblacion cod_postal="28880"></poblacion>
+    <provincia></provincia>
+  </datos_cliente>
+
+  <datos_factura n_ped="F001" iva="21" f_pago="tarjeta" moneda="euro">
+    <fecha></fecha>
+    <linea>
+      <ref></ref>
+      <desc></desc>
+      <cant></cant>
+      <precio></precio>
+      <importe></importe>
+    </linea>
+    <base></base>
+    <cuota_iva></cuota_iva>
+    <total></total>
+  </datos_factura>
+
+</factura>
