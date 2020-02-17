@@ -21,7 +21,7 @@
  <!ELEMENT cuota_iva (#PCDATA)>
  <!ELEMENT total (#PCDATA)>
 
- <!-- DefiniciÃ¯Â¿Â½n de atributos -->
+ <!-- Definicion de atributos -->
  <!ATTLIST factura n_fac ID #REQUIRED>
  <!ATTLIST telefono num_tel CDATA #FIXED "917776688">
  <!ATTLIST fax num_fax CDATA #FIXED "917776699">
@@ -31,3 +31,5 @@
  <!ATTLIST datos_factura f_pago (efectivo|tarjeta|plazos) #REQUIRED>
  <!ATTLIST datos_factura moneda CDATA #FIXED "euro">
  <!ATTLIST poblacion cod_postal CDATA "">
+ 
+  <!-- Definicion de entidades -->
