@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<Concesionario>
+  <Modelo id="Modelo556">No disponible</Modelo>
+  <Modelo id="Modelo555">
+  Este modelo tiene un motor <Motor>1.998cc 16v. de cuatro cilindros
+  </Motor> que desarrolla una potencia de <Potencia>128 </Potencia>
+  CV. Dispone de cambio manual ... el consumo medio de este monovolumen es 
+  <Consumo_medio>11 a los 100 km.</Consumo_medio> El precio base es de 2.225.000.
+  </Modelo>
+  <Modelo id="Modelo557">No disponible</Modelo>
+  <Modelo id="Modelo157">No disponible</Modelo>
+  <Modelo id="Modelo444">
+  Este modelo tiene un motor <Motor>2.000cc 16v. de cuatro cilindros</Motor> con
+  <Potencia>128</Potencia> CV. Dispone de cambio manual ... el consumo medio de este monovolumen es 
+  <Consumo_medio Velocidad_km="100">11</Consumo_medio> El precio es de 2.500.000.
+  </Modelo>
+</Concesionario>
+<!--La lista de Modelopuede estar vacia o contener uno o varios modelos-->
+<!--Cada modelo se identifica mediante un id unico de forma obligatoria-->
+<!--Cada modelo puede incluir una descripcion del mismo entre y puede aparecer su tipo de motor, potencia y consumo medio-->
+<!--El consumo medio puede incluir un atributo llamado Velocidad_km-->

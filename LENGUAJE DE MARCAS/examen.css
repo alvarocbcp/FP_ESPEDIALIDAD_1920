@@ -1,0 +1,107 @@
+/* 1. Las siguientes propiedades se aplican al formulario, indicar el selector. Añadir aquella propiedad necesaria para centrarlo*/
+form {
+	padding: 1em;
+	background: #f9f9f9;
+	border: 1px solid #c1c1c1;
+	margin-top: 2rem;
+	max-width: 600px;
+	padding: 1em;
+	float: center;
+}
+
+/*2. Las siguientes propiedades se aplican a los input
+Añadir el selector necesario*/
+input{
+	margin-bottom: 1rem;
+	background-color: #fff;
+	border: 1px solid #9c9c9c; 
+}
+
+/*3. Añadir el selector necesario para aplicar
+las siguientes propiedades al botón de envío del formulario*/
+button{
+	background: lightgrey;
+	padding: 0.7em;
+	border: 0;
+}
+
+/*4. Al pasar el cursor sobre el botón
+debe cambiar el color de fondo*/
+button: hover{
+	background-color: gold;
+}
+
+/*5. modificar la siguiente regla para que las etiquetas(label)
+se muestren en bloque*/
+label {
+	text-align: right;
+	padding: 0.5em 1.5em 0.5em 0;
+}
+
+input {
+	width: 100%;
+	padding: 0.7em;
+	margin-bottom: 0.5rem;
+}
+
+/*6. Esta propiedad se mostrará al pasar el cursor sobre los imput*/
+{
+	outline: 2px ridge green;
+}
+
+/*7. Propiedad que afecta al hacer clic (poner el foco)
+sobre los imput */
+{
+	outline: 3px solid gold;
+}
+
+/*8. Las siguientes propiedades se aplican a todo el formulario*/
+{
+	overflow: hidden;
+	min-width: 400px
+}
+
+/*9. Todas las etiquetas aparecerán flotando a la izquierda
+y con ancho de 200px*/
+{
+
+
+}
+
+/*10. Los input aparecerán flotando a la izquierda*/
+{
+	width: calc(100% - 200px);
+}
+
+button {
+	float: right;
+	width: calc(100% - 200px);
+}
+
+/*11. Esta clase afectará ala palabra sobre la que aparecerá la tool-tip
+indicar la posicion adecuada*/
+{
+	position: 
+	text-decoration: underline;
+	color: #720a85;
+	cursor: help;
+}
+
+/*12. Indicar el selector para que aparezca la tool-tip
+al pasar el cursor sobre la palabra Empleo
+completar las propiedades content y position de forma adecuada*/
+{
+	content: 
+	text-align: center;
+	position: 
+	left: 200px;
+	top: -3px;
+	min-width: 250px;
+	border: 1px #720a85 solid;
+	border-radius: 10px;
+	background-color: #e3baea;
+	padding: 12px;
+	color: black;
+	font-size: 14px;
+	opacity: 0.8;
+}

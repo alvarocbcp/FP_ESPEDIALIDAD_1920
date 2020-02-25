@@ -1,0 +1,22 @@
+
+
+Scans the next token of the input as an int. This method will throw InputMismatchException if the next token cannot be translated into a valid int value
+ as described below. If the translation is successful, the scanner advances past the input that matched.
+
+nextInt, si no puede procesar el token, lanza una excepción, pero no pasa al siguiente token. Tienes que hacerlo tú en el bloque catch, por ejemplo con sc.next()
+
+, ignorando el resultado de esa llamada.
+
+
+*************************************************************
+Lo que te recomiendo es que hagas lo siguiente:
+
+En lugar de leer el siguiente Int mejor lee el siguiente next e intenta parsearlo a Int:
+
+a = Integer.parseInt(sc.next());
+
+Con esto también intenta capturar el error NumberFormatException:
+
+catch (final NumberFormatException asd)
+
+y puedes poner lo mismo que tienes en la catch anterior si es que gustas o manejarlo de otra manera.

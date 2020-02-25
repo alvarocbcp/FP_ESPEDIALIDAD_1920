@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Examen</title>
+    <link rel="stylesheet" href="examen.css" type="text/css">
+</head>
+
+<body>
+<form method="post" action="#">
+<!--Añadir los tipos de input adecuados para insertar el Nombre
+Apellido, Empleo, Edad, Email, Tel-->
+<!--Incluir el atributo necesario para obligar a rellenar los campos
+Apellido, Email y Tel antes de enviar el formulario-->
+			<label for="nombre" class="nombre-pila">Nombre</label>
+			<input id="nombre" type="text">
+
+			<label for="apellido" class="apel1">Apellido</label>
+			<input id="apellido" type="text" required="apellido">
+
+<!--Añadir la descripci&oacute;n "Puede indicar varios separados por coma"
+que aparecerá como tooltip
+y una clase necesaria para hacer referencia a ella-->
+			<label for="trabajo">Empleo</label>
+			<input id="trabajo" type="text">
+
+			<label for="edad">Edad</label>
+			<input id="edad" type="text">
+
+			<label for="email">Email</label>
+			<input id="email" type="email" required="email">
+
+			<label for="tel">Tel</label>
+			<input id="tel" type="text" required="tel">
+
+			<button>Enviar &rarr;</button>
+</form>
+</body>
+</html>
