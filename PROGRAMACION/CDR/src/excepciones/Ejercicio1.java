@@ -1,24 +1,21 @@
 package excepciones;
 
-import javax.swing.*;
+class FactorialExcNeg extends Exception {
+	private static final long serialVersionUID = 1L;
+	public FactorialNegExc(String msg) {
+		super(msg);
+	}
+}
+
 
 public class Ejercicio1 {
 
+	public static double factorial (int numero)
+
 	public static void main(String[] args) {
-		
-		int n, suma=1;
-	
-		try {
-			n = Integer.parseInt(JOptionPane.showInputDialog("Introduce un numero para calcular su factorial"));
-		}
-		catch(FactorialNegExc e){
-			
-		}
-		
-		for(int i=1;i<n;i++) {
-			suma=suma+(suma*i);
-		}
-		JOptionPane.showMessageDialog(null, n+"! = "+suma);
+
+
+
 	}
 
 }

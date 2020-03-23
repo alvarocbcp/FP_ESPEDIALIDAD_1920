@@ -23,9 +23,9 @@ public class Cuenta {
 		saldo = saldo + cantidad;
 	}
 	
-	void retirar(double cantidad) {
+	void retirar(double cantidad) throws ExcSaldoInsuf{
 		if(saldo<cantidad){
-			JOptionPane.showMessageDialog(null, "No dispone de ese dinero en la cuenta.");
+			throw new ExcSaldoInsuf("No dispone de ese dinero en la cuenta.");
 		}
 		else {
 			saldo = saldo - cantidad;
