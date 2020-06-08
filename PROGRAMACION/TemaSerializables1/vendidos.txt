@@ -1,25 +1,5 @@
 CODIGO: 1.
 NOMBRE: Teclado.
-CANTIDAD: 5.
-PRECIO: 100€.
------------------------------------------------------
-CODIGO: 9.
-NOMBRE: CD Rom.
-CANTIDAD: 45.
-PRECIO: 200€.
------------------------------------------------------
-CODIGO: 4.
-NOMBRE: Memoria USB 16Gb.
-CANTIDAD: 9.
-PRECIO: 20€.
------------------------------------------------------
-CODIGO: 1.
-NOMBRE: Teclado.
-CANTIDAD: 50.
-PRECIO: 100€.
------------------------------------------------------
-CODIGO: 1.
-NOMBRE: Teclado.
-CANTIDAD: 44.
+CANTIDAD: 32.
 PRECIO: 100€.
 -----------------------------------------------------

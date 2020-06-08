@@ -38,7 +38,7 @@ public class AccesoDatos {
 				ps.executeUpdate();
 			}
 		} catch (SQLException e) {
-			JOptionPane.showMessageDialog(null, e, "EXCEPTION", JOptionPane.WARNING_MESSAGE);;
+			JOptionPane.showMessageDialog(null, e, "EXCEPTION", JOptionPane.WARNING_MESSAGE);
 		}
 	}
 }

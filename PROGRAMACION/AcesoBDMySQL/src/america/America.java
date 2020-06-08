@@ -12,13 +12,15 @@ public class America {
 		
 		AccesoBD.crearPersonasPaises(conexion);
 		
-		System.out.println("TABLA PERSONAS PAISES ANTES DE ACTUALIZAR\n");
+		System.out.println("			TABLA PERSONAS PAISES ANTES DE ACTUALIZAR\n");
 		
 		AccesoBD.imprimirPersonasPaises(conexion);
 		
 		AccesoBD.actualizarPersonasPaises(conexion);
 		
-		System.out.println("TABLA PERSONAS PAISES ANTES DE ACTUALIZAR\n");
+		System.out.println();
+		
+		System.out.println("			TABLA PERSONAS PAISES DESPUES DE ACTUALIZAR\n");
 		
 		AccesoBD.imprimirPersonasPaises(conexion);
 		
